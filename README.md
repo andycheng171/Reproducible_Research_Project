@@ -56,7 +56,7 @@ steps_by_day <- aggregate(steps ~ date, data, sum)
 hist(steps_by_day$steps, main = paste("Total Steps Each Day"), col="blue", xlab="Number of Steps")
 ```
 
-![plot of figure2]("./Reproducible_Research_Project/figure2.png") 
+![plot of figure2](./figure2.png) 
 
 ```r
 rmean <- mean(steps_by_day$steps)
