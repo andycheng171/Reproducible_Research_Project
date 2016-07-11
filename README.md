@@ -111,7 +111,7 @@ hist(steps_by_day$steps, main = paste("Total Steps Each Day"), col="red", xlab="
 legend("topright", c("Imputed", "Non-imputed"), col=c("blue", "red"), lwd=10)
 ```
 
-![plot of figure4](./Reproducible_Research_Project/figure4.png) 
+![plot of figure4](andycheng171/Reproducible_Research_Project/figure4.png) 
 
 Calculate new mean and median for imputed data. 
 
